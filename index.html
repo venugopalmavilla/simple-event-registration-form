@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Event.css" >
+    <title>Registration form</title>
+</head>
+    <body>
+        <header>
+            <h1>Event Registration form</h1>
+            <p>Any one can apply....!</p>
+        </header>
+        <div class="wrapper">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="banner">
+                <div class="content">
+                    <main>
+                        <form method="post" target="_self">
+                            <label for="Name">First Name: </label>
+                            <input type="text" id="name" required>
+                            <label for="last-name">last-name: </label>
+                            <input type="text" id="last-name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" required>
+                            <label for="event">Event:</label>
+                            <select>
+                                <option value="" hidden>Select an event...</option>
+                                <option value="Presentation">Paper Presentation</option>
+                                <option value="Quizz">Technical Quizz</option>
+                                <option value="Hackathon">Vemu Hackathon</option>
+                                <option value="Workshop">Workshop</option>
+                            </select>
+                            <label for="date">Date: </label>
+                            <input type="date" id="date" required>
+                        </form>
+                        <div class="container">
+                            <button type="submit" class="btn">
+                                <label for="register">Register</label>
+                            </button>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
